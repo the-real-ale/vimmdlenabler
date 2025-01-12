@@ -1,0 +1,13 @@
+{
+  "description": "Enables download button for Vimm roms.",
+  "manifest_version": 2,
+  "name": "vimmdlenabler",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://vimm.net/vault/*"],
+      "js": ["enabledl.js"]
+    }
+  ]
+}
